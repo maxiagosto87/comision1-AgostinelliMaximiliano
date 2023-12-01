@@ -1,0 +1,287 @@
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+label {
+  display: block;
+}
+
+.form {
+  width: 400px;
+  margin: 0 auto;
+}
+
+input[type="text"],
+[type="password"] {
+  display: block;
+  padding: 10px;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 5px 0 10px 0;
+}
+
+input[type="button"],
+button {
+  background-color: rgb(39, 131, 212);
+  padding: 10px;
+  border: 0;
+  min-width: 100px;
+  border-radius: 5px;
+  color: white;
+}
+
+nav {
+  background-color: #eee;
+}
+
+nav ul {
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+a {
+  color: rgb(97, 28, 161);
+  text-decoration: none;
+}
+
+.dashboard {
+  width: 500px;
+  margin: auto;
+}
+
+.errorMessage {
+  background-color: #f2dede;
+  color: #a94442;
+  padding: 10px;
+}
+
+/* Dashboard */
+
+.posts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 16px;
+}
+
+.post-container {
+  border: 1px solid #ccc;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.post-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* SignUP */
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  margin: auto;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333; /* Puedes ajustar el color según tus preferencias */
+}
+
+.form-input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-button {
+  background-color: #007bff; /* Puedes ajustar el color según tus preferencias */
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.errorMessage {
+  color: red;
+  margin-top: 10px;
+}
+
+.signup-container {
+  margin-top: 20px; 
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  margin: auto;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333; 
+}
+
+.form-input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-button {
+  background-color: #007bff; 
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.errorMessage {
+  color: red;
+  margin-top: 10px;
+}
+
+/* Dashboard */
+
+.signup-container {
+  margin-top: 20px; /* Ajusta según sea necesario */
+}
+
+.dashboard {
+  text-align: center;
+}
+
+.avatar-image {
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.posts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.post-container {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+  border: none;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+
+.post-actions button {
+  margin-right: 10px;
+}
+
+/* NewPost */
+.new-post {
+  margin-top: 20px;
+  background-color: #f2f2f2;
+}
+
+.form-input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-button {
+  background-color: #007bff; /* Puedes ajustar el color según tus preferencias */
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Profile.css */
+.profile-container {
+  margin-top: 20px;
+  background-color: #f2f2f2; /* Fondo gris claro */
+  padding: 20px; /* Añadir un espacio interno para mejorar el aspecto visual */
+  transition: all 0.3s ease; /* Transición para animar cambios al entrar y salir del modo de edición */
+}
+
+.edit-mode {
+  background-color: #f2f2f2; /* Cambia el fondo cuando está en modo de edición */
+}
+
+.form-input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-right: 10px; /* Agrega espacio entre los botones */
+}
+
+.avatar-container {
+  margin-top: 10px;
+}
+
+.btn-danger {
+  background-color: #dc3545; /* Rojo */
+}
+
+.avatar-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-top: 5px;
+}
+
